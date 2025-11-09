@@ -449,71 +449,175 @@ img{
 
 /* CONTACT PAGE */
 
-.contact-sec1{
+/* Contact Page Background */
+body.contact-page {
+    background-image: url('https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGNhZmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=900');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+/* Contact Hero */
+.contact-sec1 {
     text-align: center;
-    padding: 60px 20px;
-}
-.contact-sec1 h1{
-    font-size: 40px;
-}
-.contact-sec1 p{
-    font-size: 18px;
-    margin-top: 5px;
+    padding: 100px 20px;
 }
 
-.contact-sec2{
+/* Contact Boxes */
+.contact-sec2 {
     display: flex;
-    gap: 40px;
-    padding: 60px 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
 }
 
-/* SAME STYLE FOR BOTH BOXES */
-.contact-box{
-    flex: 1;
-    background: #fff7ef;
-    padding: 25px;
-    border-radius: 10px;
-    border: 1px solid #e1c9b5;
+.contact-box {
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 300px;
+    max-width: 450px;
 }
 
-.contact-box h2{
-    font-size: 26px;
-    margin-bottom: 15px;
+.contact-box h2 {
+    margin-top: 0;
 }
 
-.contact-box p{
-    font-size: 17px;
-    margin-bottom: 15px;
-}
-
-/* FORM */
-.contact-box1 input,
-.contact-box1 textarea{
+.contact-box input,
+.contact-box textarea,
+.contact-box button {
     width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-}
-.contact-box1 textarea{
-    height: 120px;
-    resize: none;
-}
-.contact-box1 button{
-    padding: 12px 25px;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
     border: none;
-    background: brown;
-    color: white;
-    border-radius: 6px;
+}
+
+.contact-box button {
+    background-color: #ffb347;
+    color: #222;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-box button:hover {
+    background-color: #ff9c1a;
+}
+
+/* Map Section */
+.contact-sec3 img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 30px 0;
+}
+
+/* Footer */
+.sec1fo1 {
+    background-color: #222;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    padding: 50px 20px 20px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-container div {
+    flex: 1 1 220px;
+}
+
+.footer-brand h3 {
+    font-size: 24px;
+    color: #ffb347;
+    margin-bottom: 10px;
+}
+
+.footer-brand p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-links h4,
+.footer-contact h4,
+.footer-newsletter h4 {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #ffb347;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a,
+.footer-newsletter button,
+.footer-social a {
+    color: #eee;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover,
+.footer-newsletter button:hover,
+.footer-social a:hover {
+    color: #ffb347;
+}
+
+.footer-newsletter form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.footer-newsletter input[type="email"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    flex: 1 1 150px;
+}
+
+.footer-newsletter button {
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffb347;
+    color: #222;
     cursor: pointer;
 }
 
-/* MAP */
-.contact-sec3 img{
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-top: 20px;
+.footer-social {
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+    border-top: 1px solid #444;
+    padding-top: 10px;
 }
