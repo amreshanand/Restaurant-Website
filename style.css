@@ -1,0 +1,519 @@
+/* GLOBAL */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #000;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/* HEADER */
+.sec-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #000;
+    color: #fff;
+    align-items: center;
+}
+
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: brown;
+}
+
+/* HERO SECTION */
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
+    padding: 60px 80px;      
+    gap: 60px;
+}
+
+.sec1box1{
+    flex: 1;
+}
+
+.sec1box1 h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.sec1box1 p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    display: inline-block;
+    background: brown;
+    color: white;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sec1box2{
+    flex: 1.5;
+}
+
+.sec1box2 img{
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* ABOUT SECTION */
+.sec2{
+    display: flex;
+    align-items: center;
+    padding: 60px 80px;
+    gap: 60px;
+}
+
+.sec2box1 h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.sec2box1 p{
+    font-size: 17px;
+}
+
+.sec2box2 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* MENU PREVIEW */
+.sec3{
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.menu-heading{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.menu-box{
+    display: inline-block;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.menu-box img{
+    width: 220px;      
+    height: 220px;     
+    object-fit: cover; 
+    border-radius: 12px;
+}
+
+.menu-box p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* GALLERY */
+.sec4{
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.gallery-row{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 80px;
+}
+.gallery-row img{
+    width: 32%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center top;   /* first image ka crop best */
+    border-radius: 20px;
+}
+
+.gallery-img2{
+    object-position: center center !important;  
+}
+
+
+
+/* FOOTER */
+.sec-footer{
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+
+/* GLOBAL */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #000;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/* HEADER */
+.sec-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #000;
+    color: #fff;
+    align-items: center;
+}
+
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: brown;
+}
+
+
+/* HERO (Home Page) */
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    gap: 60px;
+}
+
+.sec1box1 h1{
+    font-size: 48px;
+}
+
+.sec1box1 p{
+    font-size: 18px;
+}
+
+.btn{
+    padding: 12px 22px;
+    background: brown;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sec1box2 img{
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* ABOUT */
+.sec2{
+    display: flex;
+    align-items: center;
+    padding: 60px 80px;
+    gap: 60px;
+}
+
+.sec2box2 img{
+    border-radius: 15px;
+}
+
+/* HOME — MENU PREVIEW */
+.menu-box img{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* GALLERY */
+.gallery-row{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 80px;
+}
+
+.gallery-row img{
+    width: 32%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 20px;
+}
+
+.gallery-img2{
+    object-position: center center !important;
+}
+
+/* FOOTER */
+.sec-footer{
+    background: #000;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+
+/* ✅ MENU PAGE BACKGROUND */
+.menu-bg{
+    background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* ✅ MENU PAGE */
+.menu-sec1{
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+}
+
+.menu-sec1 h1{
+    font-size: 40px;
+}
+
+.menu-sec2, .menu-sec3, .menu-sec4, .menu-sec5{
+    padding: 40px 80px;
+    background: rgba(255, 255, 255, 0.85);
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.menu-sec2 h2,
+.menu-sec3 h2,
+.menu-sec4 h2,
+.menu-sec5 h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.menu-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.menu-item{
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.menu-item h3{
+    margin-bottom: 6px;
+}
+
+.price{
+    font-size: 18px;
+    color: brown;
+    font-weight: bold;
+}
+
+
+
+/* ABOUT PAGE */
+
+.about-sec1{
+    text-align: center;
+    padding: 60px 20px;
+}
+.about-sec1 h1{
+    font-size: 40px;
+}
+.about-sec1 p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+/* Story */
+.about-sec2{
+    display: flex;
+    align-items: center;
+    padding: 60px 80px;
+    gap: 60px;
+}
+.about-box1 p{
+    font-size: 17px;
+}
+.about-box2 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Mission */
+.about-sec5{
+    text-align: center;
+    padding: 50px 70px;
+    background: #fff4e6;
+    margin-top: 20px;
+}
+.about-sec5 h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* 3 Photos Row */
+.about-photos{
+    display: flex;
+    gap: 20px;
+    padding: 40px 80px;
+}
+.about-photos img{
+    width: 33%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Why Choose Us */
+.about-sec3{
+    text-align: center;
+    padding: 60px 40px;
+}
+.why-row{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+.why-box{
+    width: 230px;
+    padding: 20px;
+    background: #fff3e6;
+    border-radius: 10px;
+}
+.why-box h3{
+    margin-bottom: 10px;
+    color: brown;
+}
+
+/* Vision */
+.about-sec6{
+    text-align: center;
+    padding: 60px 60px;
+    background: #fff8ec;
+    margin-top: 20px;
+}
+.about-sec6 h2{
+    font-size: 30px;
+}
+.about-sec6 p{
+    font-size: 18px;
+}
+
+/* Bottom Big Image */
+.about-sec4 img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+
+/* CONTACT PAGE */
+
+.contact-sec1{
+    text-align: center;
+    padding: 60px 20px;
+}
+.contact-sec1 h1{
+    font-size: 40px;
+}
+.contact-sec1 p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.contact-sec2{
+    display: flex;
+    gap: 40px;
+    padding: 60px 80px;
+}
+
+/* SAME STYLE FOR BOTH BOXES */
+.contact-box{
+    flex: 1;
+    background: #fff7ef;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #e1c9b5;
+}
+
+.contact-box h2{
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.contact-box p{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+/* FORM */
+.contact-box1 input,
+.contact-box1 textarea{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.contact-box1 textarea{
+    height: 120px;
+    resize: none;
+}
+.contact-box1 button{
+    padding: 12px 25px;
+    border: none;
+    background: brown;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* MAP */
+.contact-sec3 img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+}
