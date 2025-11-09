@@ -1,4 +1,3 @@
-/* GLOBAL */
 body{
     margin: 0;
     font-family: Arial, sans-serif;
@@ -11,7 +10,6 @@ img{
     max-width: 100%;
 }
 
-/* HEADER */
 .sec-header{
     display: flex;
     justify-content: space-between;
@@ -36,7 +34,7 @@ img{
     color: brown;
 }
 
-/* HERO SECTION */
+
 .sec1{
     display: flex;
     justify-content: space-between;
@@ -78,7 +76,7 @@ img{
     object-fit: cover;
 }
 
-/* ABOUT SECTION */
+
 .sec2{
     display: flex;
     align-items: center;
@@ -100,7 +98,7 @@ img{
     border-radius: 15px;
 }
 
-/* MENU PREVIEW */
+
 .sec3{
     padding: 60px 40px;
     text-align: center;
@@ -129,7 +127,7 @@ img{
     font-size: 18px;
 }
 
-/* GALLERY */
+
 .sec4{
     padding: 60px 40px;
     text-align: center;
@@ -145,7 +143,7 @@ img{
     width: 32%;
     height: 350px;
     object-fit: cover;
-    object-position: center top;   /* first image ka crop best */
+    object-position: center top;   
     border-radius: 20px;
 }
 
@@ -155,7 +153,6 @@ img{
 
 
 
-/* FOOTER */
 .sec-footer{
     background: #000;
     color: white;
@@ -166,7 +163,7 @@ img{
 }
 
 
-/* GLOBAL */
+
 body{
     margin: 0;
     font-family: Arial, sans-serif;
@@ -179,7 +176,6 @@ img{
     max-width: 100%;
 }
 
-/* HEADER */
 .sec-header{
     display: flex;
     justify-content: space-between;
@@ -205,7 +201,7 @@ img{
 }
 
 
-/* HERO (Home Page) */
+
 .sec1{
     display: flex;
     justify-content: space-between;
@@ -236,7 +232,7 @@ img{
     object-fit: cover;
 }
 
-/* ABOUT */
+
 .sec2{
     display: flex;
     align-items: center;
@@ -248,7 +244,7 @@ img{
     border-radius: 15px;
 }
 
-/* HOME — MENU PREVIEW */
+
 .menu-box img{
     width: 220px;
     height: 220px;
@@ -256,7 +252,7 @@ img{
     border-radius: 12px;
 }
 
-/* GALLERY */
+
 .gallery-row{
     display: flex;
     justify-content: center;
@@ -276,7 +272,7 @@ img{
     object-position: center center !important;
 }
 
-/* FOOTER */
+
 .sec-footer{
     background: #000;
     color: white;
@@ -285,7 +281,6 @@ img{
 }
 
 
-/* ✅ MENU PAGE BACKGROUND */
 .menu-bg{
     background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836");
     background-size: cover;
@@ -296,7 +291,6 @@ img{
 }
 
 
-/* ✅ MENU PAGE */
 .menu-sec1{
     text-align: center;
     padding: 60px 20px;
@@ -347,7 +341,6 @@ img{
 
 
 
-/* ABOUT PAGE */
 
 .about-sec1{
     text-align: center;
@@ -361,7 +354,6 @@ img{
     margin-top: 5px;
 }
 
-/* Story */
 .about-sec2{
     display: flex;
     align-items: center;
@@ -376,7 +368,7 @@ img{
     border-radius: 15px;
 }
 
-/* Mission */
+
 .about-sec5{
     text-align: center;
     padding: 50px 70px;
@@ -388,7 +380,7 @@ img{
     margin-bottom: 10px;
 }
 
-/* 3 Photos Row */
+
 .about-photos{
     display: flex;
     gap: 20px;
@@ -401,7 +393,7 @@ img{
     border-radius: 10px;
 }
 
-/* Why Choose Us */
+
 .about-sec3{
     text-align: center;
     padding: 60px 40px;
@@ -423,7 +415,7 @@ img{
     color: brown;
 }
 
-/* Vision */
+
 .about-sec6{
     text-align: center;
     padding: 60px 60px;
@@ -437,7 +429,7 @@ img{
     font-size: 18px;
 }
 
-/* Bottom Big Image */
+
 .about-sec4 img{
     width: 100%;
     height: 350px;
@@ -447,9 +439,7 @@ img{
 }
 
 
-/* CONTACT PAGE */
 
-/* Contact Page Background */
 body.contact-page {
     background-image: url('https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGNhZmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=900');
     background-size: cover;
@@ -460,13 +450,13 @@ body.contact-page {
     margin: 0;
 }
 
-/* Contact Hero */
+
 .contact-sec1 {
     text-align: center;
     padding: 100px 20px;
 }
 
-/* Contact Boxes */
+
 .contact-sec2 {
     display: flex;
     flex-wrap: wrap;
@@ -508,7 +498,7 @@ body.contact-page {
     background-color: #ff9c1a;
 }
 
-/* Map Section */
+
 .contact-sec3 img {
     width: 100%;
     max-height: 400px;
@@ -517,7 +507,7 @@ body.contact-page {
     margin: 30px 0;
 }
 
-/* Footer */
+
 .sec1fo1 {
     background-color: #222;
     color: #eee;
